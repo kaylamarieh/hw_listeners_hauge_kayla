@@ -1,8 +1,8 @@
-var display = document.getElementbyId('newsletter');
+var myForm = document.getElementById('newsletter');
 
-display.addEventListener('submit', function (event) {
+myForm.addEventListener('submit', function (event) {
     event.preventDefault();
-    //var myElement = document.createElement('p');
-    //myElement.innerHTML = 'Thank you for signing up!';
-    //document.body.appendChild(myElement);
+    var myElement = document.createElement('p');
+    myElement.innerHTML = 'Thank you for signing up!';
+    document.getElementById('newsletter').appendChild(myElement);
 });
