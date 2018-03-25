@@ -27,15 +27,16 @@ form textarea {
     margin: 2%;
 }
 
-button {
+#submit {
     margin: 2%;
     padding: 2%;
     background-color: #023c4c;
     color: #eaf6f9;
     font-family: 'Raleway', sans-serif;
+    width: 30%;
 }
 
-button:hover {
+#submit:hover {
     background-color: #eaf6f9;
     color: #023c4c;
 }
