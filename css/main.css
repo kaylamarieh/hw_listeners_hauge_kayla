@@ -22,7 +22,20 @@ label {
     color: #1464a9;
 }
 
+label {
+    margin-right: 2%;
+}
+
+input {
+    width: 25%;
+}
+
 header img {
     width: 100%;
     max-width: 800px;
+}
+
+main,
+aside {
+    margin-top: 4%;
 }
