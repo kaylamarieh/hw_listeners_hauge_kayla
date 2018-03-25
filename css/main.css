@@ -39,3 +39,26 @@ main,
 aside {
     margin-top: 4%;
 }
+
+aside h2 {
+    font-size: 1.7em;
+}
+
+aside h3,
+aside p {
+    display: inline-block;
+}
+
+aside h3 {
+    width: 30%;
+    font-size: 1.3em;
+}
+
+aside p {
+    font-size: 1em;
+    width: calc(85% / 3);
+}
+
+span {
+    display: block;
+}
