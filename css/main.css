@@ -30,6 +30,12 @@ input {
     width: 25%;
 }
 
+#ok {
+    width: 5%;
+    background-color: #1464a9;
+    color: #ffffff;
+}
+
 header img {
     width: 100%;
     max-width: 800px;
