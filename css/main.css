@@ -1,11 +1,41 @@
 body {
-    background-color: #d7f0f9;
+    background-color: #eaf6f9;
 }
 
 #container {
-    align-items: center;
+    margin: auto;
+    max-width: 600px;
 }
 
-form input {
+form {
+    background-color: #bbeefc;
+    padding: 10%;
+    margin-top: 10%;
+    color: #023c4c;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2em;
+}
+
+label {
+    margin-left: 2%;
+}
+
+form input,
+form textarea {
     display: block;
+    width: 60%;
+    margin: 2%;
+}
+
+button {
+    margin: 2%;
+    padding: 2%;
+    background-color: #023c4c;
+    color: #eaf6f9;
+    font-family: 'Raleway', sans-serif;
+}
+
+button:hover {
+    background-color: #eaf6f9;
+    color: #023c4c;
 }
