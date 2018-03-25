@@ -3,5 +3,9 @@ body {
 }
 
 #container {
-    margin: auto;
+    align-items: center;
+}
+
+form input {
+    display: block;
 }
