@@ -68,3 +68,7 @@ aside p {
 span {
     display: block;
 }
+
+#work {
+    opacity: 0;
+}
