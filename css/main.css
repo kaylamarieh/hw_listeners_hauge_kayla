@@ -1,0 +1,28 @@
+#container {
+    text-align: center;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #283957;
+}
+
+h2 {
+    font-size: 2em;
+    color: #283957;
+}
+
+p,
+label {
+    font-size: 1.5em;
+    color: #1464a9;
+}
+
+header img {
+    width: 100%;
+    max-width: 800px;
+}
