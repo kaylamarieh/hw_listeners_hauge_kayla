@@ -19,24 +19,27 @@ show.addEventListener('scroll', function () {
     document.getElementById('three').style.opacity = '1';
 });
 
+var beginner = document.getElementById('begin');
+var intermediate = document.getElementById('inter');
+var count = 0;
+var place; //make place a global variable
 
-
-
-
-var info = document.getElementById('begin');
-
-//listens for a click on the word 'Begginer'
-info.addEventListener('click', function () {
-    var more = document.createElement('p');
-    //adds more inoformation about the beginner option under the words
-    more.innerHTML = 'If you have just started out, but want to learn more.';
-    document.getElementById('moreinfo').appendChild(more);
+//listens for a click on the word 'beginner'
+beginner.addEventListener('click', function () {
+    if (count === 0) {
+        place = document.createElement('p');
+        count = 1;
+    } //only creates paragraph element one time
+    //adds more information about beginnger
+    place.innerHTML = 'If you have just started out, but want to learn more.';
+    document.getElementById('moreinfo').appendChild(place);
 });
-
-var other = document.getElementById('inter');
-
-other.addEventListener('click', function () {
-    var most = document.createElement('p');
-    most.innerHTML = 'If you know some, but would like to expand your knowledge';
-    document.getElementById('moreinfo').removeChild(('moreinfo').firstChild);
+//listenes for a click on the word 'intermediate'
+intermediate.addEventListener('click', function () {
+    if (count === 0) {
+        place = document.createElement('p');
+        count = 1;
+    }//repeated incase intermediate is clicked first
+    place.innerHTML = 'If you know some, but would like to expand your knowledge.';
+    document.getElementById('moreinfo').appendChild(place);
 });
