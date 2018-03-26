@@ -14,16 +14,15 @@ var show = window;
 
 show.addEventListener('scroll', function () {
     var scrollPos = window.scrollY;
-    //changes the opacity on icons to show up
-    if (scrollPos > 250) {
-        document.getElementById('one').style.opacity = '1';
-        document.getElementById('two').style.opacity = '1';
-        document.getElementById('three').style.opacity = '1';
-    } else {
-        document.getElementById('one').style.opacity = '0';
-        document.getElementById('two').style.opacity = '0';
-        document.getElementById('three').style.opacity = '0';
+    var op;
+    //changes the opacity on icons to show up depending upon scroll location
+    op = scrollPos / 500;
+    if (op > 1) {
+        op = 1; //because opacity cannot be greater than 1
     }
+    document.getElementById('one').style.opacity = op;
+    document.getElementById('two').style.opacity = op;
+    document.getElementById('three').style.opacity = op;
 });
 
 var beginner = document.getElementById('begin');
