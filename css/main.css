@@ -69,6 +69,8 @@ span {
     display: block;
 }
 
-#work {
+#one,
+#two,
+#three {
     opacity: 0;
 }
