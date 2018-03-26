@@ -12,8 +12,7 @@
     * I used this to understand how I could reference things in my event listeners.
 * [Add Event Listeners](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)
     * I used this when creating my event listeners.
-*
-[Scroll](https://developer.mozilla.org/en-US/docs/Web/Events/scroll)
+* [Scroll](https://developer.mozilla.org/en-US/docs/Web/Events/scroll)
     * I used this when creating my scroll event listener.
 * [Opacity](https://www.w3schools.com/jsref/prop_style_opacity.asp)
     * I used this to understand how to reference opacity in an event listener.
