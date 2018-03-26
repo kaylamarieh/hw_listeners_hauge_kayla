@@ -13,10 +13,17 @@ myForm.addEventListener('submit', function (event) {
 var show = window;
 
 show.addEventListener('scroll', function () {
+    var scrollPos = window.scrollY;
     //changes the opacity on icons to show up
-    document.getElementById('one').style.opacity = '1';
-    document.getElementById('two').style.opacity = '1';
-    document.getElementById('three').style.opacity = '1';
+    if (scrollPos > 250) {
+        document.getElementById('one').style.opacity = '1';
+        document.getElementById('two').style.opacity = '1';
+        document.getElementById('three').style.opacity = '1';
+    } else {
+        document.getElementById('one').style.opacity = '0';
+        document.getElementById('two').style.opacity = '0';
+        document.getElementById('three').style.opacity = '0';
+    }
 });
 
 var beginner = document.getElementById('begin');
